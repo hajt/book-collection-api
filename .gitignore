@@ -1,0 +1,10 @@
+db.sqlite3
+books_collection_api/migrations/
+books_collection_api/__pycache__
+utils.py
+app/__pycache__
+todo
+books_collection_api/tests/__pycache__
+.vscode
+books_collection_api/__pycache__
+books_collection_api/tests/__pycache__
