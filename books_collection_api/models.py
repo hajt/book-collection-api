@@ -1,7 +1,12 @@
 from typing import Any
 from django.db import models
-from django.core.validators import MinValueValidator, MaxValueValidator, MinLengthValidator, MaxLengthValidator
 from django.db.models.constraints import UniqueConstraint
+from django.core.validators import (
+    MinValueValidator,
+    MaxValueValidator,
+    MinLengthValidator,
+    MaxLengthValidator
+)
 
 
 class AuthorManager(models.Manager):

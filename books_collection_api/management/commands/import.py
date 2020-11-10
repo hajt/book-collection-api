@@ -27,7 +27,7 @@ class Command(BaseCommand):
                 self._import_opinions(filename)
 
     def _import_books(self, filename: str) -> None:
-        """ Function which parses csv file with books 
+        """ Function which parses csv file with books
         and inserts them into the database. """
         with open(filename, 'r') as file:
             total = 0
@@ -53,7 +53,7 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.NOTICE('No new books to import.'))
 
     def _import_opinions(self, filename: str) -> None:
-        """ Function which parses csv file with opinions 
+        """ Function which parses csv file with opinions
         and inserts them into the database. """
         with open(filename, 'r') as file:
             total = 0
