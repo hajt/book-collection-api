@@ -8,3 +8,7 @@ books_collection_api/tests/__pycache__
 .vscode
 books_collection_api/__pycache__
 books_collection_api/tests/__pycache__
+ksiazki.csv
+opinie.csv
+books_collection_api/management/commands/__pycache__
+books_collection_api/management/__pycache__
